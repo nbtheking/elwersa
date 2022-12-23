@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: antiquewhite;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  align-content: flex-start;
+}
+.myvideos {
+ /* background-color: rgb(232, 241, 237); */
+ padding: 10px;
+ border-radius: 5px;
+ width: 420px;
+ height: 315px;
+ color: black;
+}
+.yourvideo{
+  width: 420px;
+ height: 315px;
+ padding: 10px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer{
+   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
