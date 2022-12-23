@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <Link className="navbar-brand" href="/">
@@ -55,4 +55,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
