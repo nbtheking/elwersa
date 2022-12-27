@@ -27,12 +27,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="#">
+            <Link className="nav-link" href="/about">
               About us
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="#">
+            <Link className="nav-link" href="/contact">
               Contact us
             </Link>
           </li>
