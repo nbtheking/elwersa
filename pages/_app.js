@@ -17,23 +17,23 @@ export default function App({ Component, pageProps }) {
     };
   }, [router.events]);
   return (
-    <Layout>
+    <>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}
         strategy="afterInteractive"
       >
         <Script id="google-analytics-script" strategy="afterInteractive">
           {`
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-       gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
         `}
         </Script>
       </Script>
-
-      <Component {...pageProps} />
-    </Layout>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
   );
 }
