@@ -13,7 +13,7 @@ export default function Home() {
     <div className={styles.container}>
       {Posts &&
         Posts.map((item) => (
-          <div href={"/" + item.id} key={item.id} className={styles.myvideos}>
+          <div key={item.id} className={styles.myvideos}>
             <Videos data={item} />
           </div>
         ))}
