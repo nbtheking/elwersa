@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
       <Link className="navbar-brand" href="/">
         ELWERSA
       </Link>
