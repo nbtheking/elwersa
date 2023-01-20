@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu,AiOutlineSearch } from "react-icons/ai";
+import {
+  AiOutlineClose,
+  AiOutlineMail,
+  AiOutlineMenu,
+  AiOutlineSearch,
+} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -14,7 +19,12 @@ const Navbar = () => {
     <div className="fixed w-full h-20 shadow-2xl font-bold font-sans z-[100]  bg-slate-100">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-        <Image src="/../public/logo.png" width="125" height="50" alt="elwersa logo" />
+          <Image
+            src="https://firebasestorage.googleapis.com/v0/b/elwersa-8a62d.appspot.com/o/Photo_1672654626470_1-removebg-preview.png?alt=media&token=b0096eaf-dae4-460c-ad16-5e7845739e08"
+            width="125"
+            height="50"
+            alt="elwersa logo"
+          />
         </Link>
         <div className="mx-10 ">
           <ul className=" uppercase hidden md:flex">
@@ -38,7 +48,7 @@ const Navbar = () => {
                 type="search"
                 placeholder="Search"
               />
-              <AiOutlineSearch className="cursor-pointer"/>
+              <AiOutlineSearch className="cursor-pointer" />
             </div>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -60,7 +70,12 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between ">
-              <Image src="/../public/logo.png" width="87" height="35" alt="elwersa logo" />
+              <Image
+                src="https://firebasestorage.googleapis.com/v0/b/elwersa-8a62d.appspot.com/o/Photo_1672654626470_1-removebg-preview.png?alt=media&token=b0096eaf-dae4-460c-ad16-5e7845739e08"
+                width="87"
+                height="35"
+                alt="elwersa logo"
+              />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
