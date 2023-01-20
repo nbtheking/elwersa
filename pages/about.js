@@ -1,10 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
 
 const about = () => {
   return (
-    <div className={styles.about}>
+    <div className="pt-[100px]">
       <p>about page</p>
       <Link href="/">Go to home</Link>
     </div>

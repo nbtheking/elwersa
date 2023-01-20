@@ -1,10 +1,11 @@
+import Videos from "../components/Videos";
 import { useEffect, useState } from "react";
-import { db } from "../firebase";
-import Link from "next/link";
 import MyImage from "../components/MyImage";
+import {db} from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
+import Link from "next/link";
 
-export default function Home() {
+export default function Try() {
   const [data, setData] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
@@ -26,7 +27,7 @@ export default function Home() {
     <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mx-10 md:mx-20 pt-[100px] ">
       {data &&
         data.map((item) => (
-          <Link href={`/${item.id}`} key={item.id}>
+          <Link href={`http://localhost:3000/${item.id}`} key={item.id}>
             <MyImage data={item} />
           </Link>
         ))}
