@@ -20,8 +20,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image
-            src="https://firebasestorage.googleapis.com/v0/b/elwersa-8a62d.appspot.com/o/Photo_1672654626470_1-removebg-preview.png?alt=media&token=b0096eaf-dae4-460c-ad16-5e7845739e08"
-            width="125"
+            src="https://firebasestorage.googleapis.com/v0/b/elwersa-8a62d.appspot.com/o/Photo_1674339213196-removebg-preview.png?alt=media&token=e7453471-8179-42ef-a0a1-017250fb122b"
+            width="200"
             height="50"
             alt="elwersa logo"
           />
@@ -71,8 +71,8 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between ">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/elwersa-8a62d.appspot.com/o/Photo_1672654626470_1-removebg-preview.png?alt=media&token=b0096eaf-dae4-460c-ad16-5e7845739e08"
-                width="87"
+                src="https://firebasestorage.googleapis.com/v0/b/elwersa-8a62d.appspot.com/o/Photo_1674339213196-removebg-preview.png?alt=media&token=e7453471-8179-42ef-a0a1-017250fb122b"
+                width="200"
                 height="35"
                 alt="elwersa logo"
               />
