@@ -72,7 +72,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between ">
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/elwersa-8a62d.appspot.com/o/Photo_1674339213196-removebg-preview.png?alt=media&token=e7453471-8179-42ef-a0a1-017250fb122b"
-                width="200"
+                width="150"
                 height="35"
                 alt="elwersa logo"
               />
