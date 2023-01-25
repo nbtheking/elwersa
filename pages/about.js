@@ -1,8 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import Head from 'next/head';
 
 const about = () => {
   return (
+    <>
+    <Head>
+      <title>About Elwersa</title>
+    </Head>
     <div className=" pt-[150px] mx-10">
       <div className="container mx-auto p-10 w-[100%] md:w-[700px] shadow-2xl bg-white">
         <h1 className="text-2xl font-medium mb-4 text-center md:text-left">
@@ -33,6 +38,7 @@ const about = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 

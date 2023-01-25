@@ -20,11 +20,6 @@ const layout = ({ children }) => {
   return (
     <div>
       <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3881651214880348"
-        crossorigin="anonymous"
-      />
-      <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}
         strategy="afterInteractive"
       />
@@ -36,11 +31,6 @@ const layout = ({ children }) => {
             gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
          `}
       </Script>
-      <Script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"
-      />
       <Script
         src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

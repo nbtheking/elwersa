@@ -1,7 +1,14 @@
 import React from "react";
+import Head from 'next/head'
 
 const contact = () => {
   return (
+    <>
+    <Head>
+      <title>
+        Contact Us - Elwersa
+      </title>
+    </Head>
     <div className="bg-gray-200 pt-[150px]">
       <div className="container mx-auto px-4">
         <h1 className="text-2xl font-medium mb-4 text-center">
@@ -58,6 +65,7 @@ const contact = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 
