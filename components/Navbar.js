@@ -31,7 +31,7 @@ const Navbar = () => {
             <Link href="/">
               <li className="ml-10 text-sm hover:border-b">HOME</li>
             </Link>
-            <Link href="/movies">
+            <Link href="/">
               <li className="ml-10 text-sm  hover:border-b">MOVIES</li>
             </Link>
             <Link href="/about">
