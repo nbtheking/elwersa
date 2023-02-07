@@ -38,6 +38,17 @@ const layout = ({ children }) => {
       />
       <Head>
         <title>elwersa</title>
+        <meta
+          name="description"
+          content=" Welcome to Elwersa, your go-to destination for all things cinema. We
+          are dedicated to bringing you the latest and greatest in the world of
+          movies. From the latest blockbuster releases to indie films you won't
+          find anywhere else, we have something for everyone."
+        />
+        <meta
+          name="keywords"
+          content="مسلسل الورثة,the heirs,korean drama,مسلسل الورثة مدبلج,مسلسل الورثة الحلقة2,مسلسل الورثة الحلقة 10 مدبلج,مسلسل الورثة الحلقة 12 مدبلج,مسلسل الورثة الحلقة 1,مسلسل الورثة الحلقة 6 مدبلج,مسلسل الورثة الحلقة 5 مدبلج,مسلسل الورثة الحلقة 14 مدبلج,مسلسل الورثة الحلقة3,مسلسل الورثة الحلقة 11 مدبلج,مسلسل الورثة الحلقة 7 مدبلج,مسلسل الورثه,مسلسل الورثة مترجم,مسلسل الورثة الحلقة4,مسلسل الورثة الحلقة3,مسلسل الورثة الحلقة 1,مسلسل الورثة مترجم الحلقة 1"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="icon"
