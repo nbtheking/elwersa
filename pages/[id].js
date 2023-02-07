@@ -1,4 +1,3 @@
-import Posts from "../components/Post";
 import { useRouter } from "next/router";
 import MyVideos from "../components/Videos";
 import { useEffect, useState } from "react";
